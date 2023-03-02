@@ -71,7 +71,7 @@ max_length = 500
 X_train = pad_sequences([seq for seq, label in train_sequences], maxlen=max_length)
 y_train = to_categorical(np.array([label for seq, label in train_sequences]))
 X_val = pad_sequences([seq for seq, label in val_sequences], maxlen=max_length)
-y_val = to_categorical(np.array([label for seq, label in val_sequences]))
+y_val = to_categorical(np.array([label for seq, labezl in val_sequences]))
 # Define the deep learning model
 model = Sequential()
 model.add(Embedding(len(vocab)+1, 32, input_length=max_length))
