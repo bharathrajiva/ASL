@@ -1,7 +1,7 @@
 #ASL BOris
 
 
-git clone https://github.com/bharath-rajiv/ASL.git
+git clone https://github.com/bharathrajiva/ASL.git
 
 cd ASL/ASL
 
